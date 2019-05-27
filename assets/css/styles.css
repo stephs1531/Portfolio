@@ -1,7 +1,7 @@
 /* ---------- FULL PAGE ---------------- */
 #main-body {
     width: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
     height: 100vh;
 }
 #page-content {
@@ -22,7 +22,7 @@
 
 #right-side {
     width: 50%;
-    background-color: teal;
+    /* background-color: teal; */
     height: 100vh;
     overflow: hidden;
 }
@@ -92,3 +92,21 @@ a:active {
     .work-item a {
         color: #171c1e!important;
     }
+
+#project-images {
+    width: 50vw;
+}
+
+#project-images img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+#first-image {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
