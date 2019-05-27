@@ -18,11 +18,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 
 #right-side {
     width: 50%;
-    /* background-color: teal; */
+    background-color: #fff;
     height: 100vh;
     overflow: hidden;
 }
@@ -87,6 +88,10 @@ a:active {
     .work-item {
         padding: 0px 5px 0px 5px;
         color: #171c1e;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        height: 0;
     }
 
     .work-item a {
