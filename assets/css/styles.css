@@ -1,0 +1,94 @@
+/* ---------- FULL PAGE ---------------- */
+#main-body {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+#page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    z-index: -20;
+}
+
+#left-side {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#right-side {
+    width: 50%;
+    background-color: teal;
+    height: 100vh;
+    overflow: hidden;
+}
+#right-side:hover {
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171c1e;
+    font-size: 60px;
+    padding-bottom: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid teal;
+}
+a:active {
+    border-bottom: 2px solid teal;
+}
+    /* ----------- NAV BAR --------------------- */
+    #nav-bar {
+        background-color: #171c1e;
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    ul {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;   
+        margin: 0;    
+    }
+
+    .menu-item {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        }
+    
+      
+
+    /* ----------- WORK MODULE --------------------- */
+   
+    #work-items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    
+    
+    .work-item {
+        padding: 0px 5px 0px 5px;
+        color: #171c1e;
+    }
+
+    .work-item a {
+        color: #171c1e!important;
+    }
