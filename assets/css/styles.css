@@ -75,12 +75,13 @@ a:active {
 
     /* ----------- WORK MODULE --------------------- */
    
-    #work-items {
+    #work-items, #project-info {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         width: 70%;
         margin: 0 auto;
+        text-align: center;
     }
 
     
@@ -100,6 +101,9 @@ a:active {
 
 #project-images {
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #project-images img {
