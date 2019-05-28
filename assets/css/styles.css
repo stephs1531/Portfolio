@@ -84,6 +84,16 @@ a:active {
         text-align: center;
     }
 
+    #project-info h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #project-info p {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
     
     
     .work-item {
@@ -118,4 +128,5 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -30px;
 }
