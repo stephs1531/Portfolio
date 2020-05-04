@@ -4,7 +4,7 @@ $("#balm").on("click", function() {
     $("#project-info").append('<h1>The Balm</h1>');
     $("#project-info").append('<p>website design | <strong>student show silver winner</strong></p>');
     $("#project-info").append("<p>Website design for a San Francisco based makeup company with a 1950's pinup inspired style.</p>");
-    $('#project-images').prepend('<img id="first-image" src="assets/images/the_balm/balm_mockup.png" />')
+    $('#project-images').prepend('<img id="first-image" src="gs://portfolio-5c60e.appspot.com/balm/balm_mockup.png" />')
     $('#project-images').append('<img class="image" src="assets/images/the_balm/the_balm_home.jpg" /> <img class="image" src="assets/images/the_balm/the_balm_product2.jpg" /> <img class="image" src="assets/images/the_balm/product_detail2.jpg" /> ')
 });
 

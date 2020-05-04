@@ -83,11 +83,41 @@
      
     
     <!-- ------------------------------ JAVASCRIPT --------------------------------------- -->
-    <script
-  src="https://code.jquery.com/jquery-3.5.0.js"
-  integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
-  crossorigin="anonymous"></script>
-    <!-- <script type="text/javascript" src="assets/javascript/imagefit.js"></script> -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDMZHiYgE_AiUudSV2r7aWNp7ffp5Z-A2c",
+          authDomain: "portfolio-5c60e.firebaseapp.com",
+          databaseURL: "https://portfolio-5c60e.firebaseio.com",
+          projectId: "portfolio-5c60e",
+          storageBucket: "portfolio-5c60e.appspot.com",
+          messagingSenderId: "1015852235816",
+          appId: "1:1015852235816:web:87ec4cf2a53e11dbd2091d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+ <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+ <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+ <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+ <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+ <!-- Add Firebase products that you want to use -->
+ <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="assets/javascript/imagefit.js"></script> -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 </html>
