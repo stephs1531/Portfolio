@@ -23,7 +23,7 @@ $("#garage").on("click", function() {
     $("#project-images").empty();
     $("#project-info").empty();
     $("#project-info").append("<h1>The Neighbor's Garage</h1>");
-    $("#project-info").append('<p>posters | logo | stage design | app design | logo animation</p>');
+    $("#project-info").append('<p>posters | logo | environmental design | app design | logo animation</p>');
     $("#project-info").append("<p>Concept membership-based company that brings musicians of all skill levels together by providing a space for them to practice, form new bands, and play live shows. Musicians download the app to be matched up with other musicians with similar styles and skill levels, and meet up at a local venue to practice, record music, and play live shows.</p>");
     $('#project-images').prepend('<img id="first-image" src="assets/images/neighbors_garage/app_mockup.jpg" />')
     $('#project-images').append('<img class="image" src="assets/images/neighbors_garage/knowlton_loster3-01.png"/> <img class="image" src="assets/images/neighbors_garage/lauren_poster3-01.png" /> <img class="image" src="assets/images/neighbors_garage/poster_smaller2.png" /> <img class="image" src="assets/images/neighbors_garage/stage_mockup.jpg" />')
@@ -43,7 +43,7 @@ $("#melvin").on("click", function() {
     $("#project-images").empty();
     $("#project-info").empty();
     $("#project-info").append("<h1>Melancholy Melvin</h1>");
-    $("#project-info").append('<p>character design</p>');
+    $("#project-info").append('<p>character design | packaging design</p>');
     $("#project-info").append("<p>A website concept for a women's roller derby league based in Greensboro, N.C. The design reflects the team's industrial warehouse practice space and allows users to experience their local roller derby team in a more interactive way.</p>");
     $('#project-images').prepend('<img id="first-image" src="assets/images/melvin/character.jpg" />')
     $('#project-images').append('<img class="image" src="assets/images/melvin/characters-04.png"/> <img class="image" src="assets/images/melvin/boxes.jpg" /> <img class="image" src="assets/images/melvin/boxes2.jpg" /> <img class="image" src="assets/images/melvin/melvin_booklet.jpg" /> <img class="image" src="assets/images/melvin/melancholy_melvin.jpg" />')
